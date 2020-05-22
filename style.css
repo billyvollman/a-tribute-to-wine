@@ -1,0 +1,11 @@
+body {
+  background-color: mistyrose;
+}
+
+#main {
+  width: 60%;
+  margin: 5% auto;
+  border-radius: 20px;
+  background-color: white;
+  padding: 20px;
+}
