@@ -1,5 +1,10 @@
 body {
+  background: url('https://visittrivalley.com/wp-content/uploads/2018/10/VTV_Wine-Pour-Loop_3.gif')
+    no-repeat;
   background-color: mistyrose;
+  background-position: top;
+  background-size: 150% 55%;
+  background-attachment: fixed;
 }
 
 #main {
