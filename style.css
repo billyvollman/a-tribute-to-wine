@@ -8,11 +8,8 @@ body {
 }
 
 #main {
-  width: 60%;
+  width: 50%;
   margin: 5% auto;
-}
-
-header {
   background-color: white;
   border-radius: 20px;
   padding: 5%;
@@ -48,6 +45,17 @@ img {
   margin: 0 auto;
 }
 
+#img-caption {
+  display: flex;
+  flex-direction: column;
+}
+
+#img-caption div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 #tribute-info {
-  margin: 1rem;
+  margin: 1.5rem 0 0;
 }
