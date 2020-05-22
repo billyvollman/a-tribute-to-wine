@@ -5,9 +5,35 @@ body {
 #main {
   width: 60%;
   margin: 5% auto;
-  border-radius: 20px;
+}
+
+header {
   background-color: white;
-  padding: 20px;
+  border-radius: 20px;
+  padding: 5%;
+}
+
+#title {
+  text-align: center;
+}
+
+.blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 0;
+  padding: 1em 10px;
+  quotes: '\201C''\201D''\2018''\2019';
+  font-size: 20px;
+}
+
+.blockquote::before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+  display: inline-block;
 }
 
 img {
@@ -15,4 +41,8 @@ img {
   display: block;
   height: auto;
   margin: 0 auto;
+}
+
+#tribute-info {
+  margin: 1rem;
 }
