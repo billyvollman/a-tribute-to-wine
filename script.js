@@ -49,7 +49,7 @@ let ul = '<ul>'
 facts.forEach(item => {
   ul += `<li>
           ${item.fact}
-          <a href=${item.source} target="_blank" >Source</a>
+          <a href=${item.source} target="_blank" > Source</a>
         </li>`
 })
 ul += '</ul>';

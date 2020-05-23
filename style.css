@@ -19,6 +19,7 @@ body {
 #title {
   text-align: center;
   font-family: 'Kalam', cursive, Arial, Helvetica, sans-serif;
+  font-size: 4rem;
 }
 
 .blockquote {
@@ -67,6 +68,68 @@ img {
   align-items: center;
 }
 
+a:hover {
+  color: hotpink;
+  background: rgba(255, 228, 225, 0.2);
+}
+
+a:active {
+  color: blue;
+}
+
+a:link {
+  text-decoration: none;
+}
+
 #tribute-info {
   margin: 1.5rem 0 0;
+}
+
+@media (max-width: 1250px) {
+  #title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1040px) {
+  body {
+    background-size: 190% 40%;
+  }
+
+  #main {
+    width: 75%;
+  }
+
+  #title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 630px) {
+  #title {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 460px) {
+  #main {
+    font-size: 0.6rem;
+    text-align: justify;
+  }
+
+  #title {
+    font-size: 1.5rem;
+  }
+
+  .blockquote {
+    font-size: 0.65rem;
+  }
+
+  #img-caption {
+    font-size: 0.5rem;
+  }
+
+  .heading {
+    font-size: 0.65rem;
+  }
 }
