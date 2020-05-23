@@ -19,7 +19,7 @@ body {
 #title {
   text-align: center;
   font-family: 'Kalam', cursive, Arial, Helvetica, sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .blockquote {
@@ -28,7 +28,7 @@ body {
   margin: 1.5em 0;
   padding: 1em 10px;
   quotes: '\201C''\201D''\2018''\2019';
-  font-size: 20px;
+  font-size: 2rem;
   font-family: 'Special Elite', cursive, Arial, Helvetica, sans-serif;
 }
 
@@ -102,6 +102,22 @@ a:link {
 
   #title {
     font-size: 3rem;
+  }
+
+  .blockquote {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 860px) {
+  .blockquote {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .blockquote {
+    font-size: 1.3rem;
   }
 }
 
